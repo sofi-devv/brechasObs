@@ -1,0 +1,3 @@
+pip install --upgrade streamlit
+
+python -m streamlit run app.py
