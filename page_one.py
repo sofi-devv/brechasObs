@@ -1,7 +1,13 @@
+# pip install --upgrade streamlit
+
+# python -m streamlit run app.py
+
+
 import streamlit as st
 import pandas as pd
 from io import BytesIO
 from difflib import SequenceMatcher
+# openpyxl es necesario para la exportación a Excel
 
 # Lista base de valores permitidos
 BASE_VALUES = [
